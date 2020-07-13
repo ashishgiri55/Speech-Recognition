@@ -1,0 +1,28 @@
+body{
+    background: #eee;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    background: #fff;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 1px 1px 3px 1px #ccc;
+}
+button{
+    background: purple;
+    color: #fff;
+    border:1px solid transparent;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease all 0.65s;
+}
+button:hover{
+    background-color: #111;
+}
